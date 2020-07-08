@@ -28,8 +28,19 @@ Julia Library  having DSP functions
 - finddelay - Estimate delay(s) between signals
 - findpeaks - Find local maxima
 - findsignal - Find signal location using similarity search
-- 
-
+- fillgaps - Fill gaps using autoregressive modeling
+- fsst - Fourier synchrosqueezed transform
+- fwht - Fast Walsh-Hadamard transform
+- goertzel - Discrete Fourier transform with second-order Goertzel algorithm
+- gmonopuls - Gaussian monopulse
+- hht - Hilbert-Huang transform
+- hilbert - Discrete-time analytic signal using Hilbert transform
+- icceps - Inverse complex cepstrum
+- idct - Inverse discrete cosine transform
+- ifsst - Inverse Fourier synchrosqueezed transform
+- ifwht - Inverse Fast Walsh-Hadamard transform
+- instfreq - Estimate instantaneous frequency
+- interp - Interpolation — increase sample rate by integer factor
 
 ### Filters
 
@@ -55,8 +66,34 @@ Julia Library  having DSP functions
 - cheby1 - Chebyshev Type I filter design
 - cheby2 - Chebyshev Type II filter design
 - ellip - Elliptic filter design
+- ellipap - Elliptic analog lowpass filter prototype 
 - ellipord - Minimum order for elliptic filters
-- 
+- equiripple - Equiripple single-rate FIR filter from specification object
+- eqtflength - Equalize lengths of transfer function's numerator and denominator
+- falltime - Fall time of negative-going bilevel waveform transitions
+- filtfilt - Zero-phase digital filtering
+- filtic - Initial conditions for transposed direct-form II filter implementation
+- fir - Window-based FIR filter design
+- fir2 - Frequency sampling-based FIR filter design
+- fircls - Constrained-least-squares FIR multiband filter design
+- firls - Least-squares linear-phase FIR filter design
+- firpm - Parks-McClellan optimal FIR filter design
+- firpmord - Parks-McClellan optimal FIR filter order estimation
+- flattopwin - Flat top weighted window
+- freqs - Frequency response of analog filters
+- freqz - Frequency response of digital filter
+- gausswin - Gaussian window
+- grpdelay - Average filter delay (group delay)
+- hamming - Hamming window
+- hann - Hanning window
+- highpass - Highpass-filter signals
+- impinvar - Impulse invariance method for analog-to-digital filter conversion
+- impz - Impulse response of digital filter
+- impzlength - Impulse response length
+- intfilt - Interpolation FIR filter design
+- kaiser - Kaiser window
+
+
 
 
 
